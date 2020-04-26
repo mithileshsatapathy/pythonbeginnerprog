@@ -35,9 +35,18 @@
 
 ###---List Less Than Ten---###
 
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = []
-for i in a:
-        if i<10:
-                b.append(i)
-print(b)
+#a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+#b = []
+#for i in a:
+#        if i<10:
+#                b.append(i)
+#print(b)
+
+#Sum of each number in the list#
+#Number = [1,2,3,4,5,6,7,8,9]
+#sum = 0
+#for each_num in Number:
+#    newSum= sum+each_num
+#    print(newSum)
+#    sum = sum+each_num
+
