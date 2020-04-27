@@ -33,7 +33,7 @@
 ##turn100Years= str(2020-Age+100)
 ##print("You will turn 100 Years old in the Year :" + str(turn100Years))
 
-###---List Less Than Ten---###
+###4.0---List Less Than Ten---###
 
 #a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 #b = []
@@ -42,7 +42,7 @@
 #                b.append(i)
 #print(b)
 
-#Sum of each number in the list#
+#5.0Sum of each number in the list#
 #Number = [1,2,3,4,5,6,7,8,9]
 #sum = 0
 #for each_num in Number:
@@ -50,7 +50,7 @@
 #    print(newSum)
 #    sum = sum+each_num
 
-#Overlap between 2 Lists#
+#6.0Overlap between 2 Lists#
 
 #a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 #b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
@@ -59,3 +59,20 @@
 #for a_num in a:
 #    if a_num in b:
 #        print(a_num)
+
+###7.0 Print the name to see if it is Palindrom
+#name= input("Enter your Name:")
+#rvsName= name[::-1]
+#if name==rvsName:
+#    print("This is Palindrome")
+#else:
+#    print("This is not Palindrome")
+
+###8.0 Print the new list with only even numbers from another list
+#a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+#b = []
+#for number in a:
+#    if number %2==0:
+#        b.append(number)
+#print(b)
+###
