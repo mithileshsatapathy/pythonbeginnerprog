@@ -76,3 +76,53 @@
 #        b.append(number)
 #print(b)
 ###
+##import turtle
+##
+##screen = turtle.Screen()
+##screen.bgcolor("white")
+##screen.title("Drawing Birthday Wish")
+##
+##my_turtle = turtle.Turtle()
+##my_turtle.pensize(5)
+##my_turtle.shape("circle")
+####my_turtle.forward(100)
+##
+####for move in range(0,1):
+##my_turtle.forward(20)
+##my_turtle.right(90)
+##my_turtle.forward(50)
+##my_turtle.backward(100)
+##my_turtle.forward(50)
+##my_turtle.right(90)
+##my_turtle.forward(40)
+##my_turtle.right(90)
+##my_turtle.forward(50)
+##my_turtle.backward(100)
+##
+##my_turtle.penup(100)
+####my_turtle.backward(50)
+##    
+##
+##my_turtle.hideturtle()
+##turtle.done()
+
+##def factorial(n):
+##    if not isinstance (n,int):
+##        return -1
+##        print("Factorial is not Integers")
+##    elif n<0:
+##        return -1
+##        print("Factorial is only for Positive Numbers")
+##    elif n == 0:
+##        return 1
+##    else:
+##        return n*factorial(n-1)
+##print (factorial(1024))
+##
+##def isdivisible (x,y):
+##    if x%y ==0:
+##        return ("This is an Even Number")
+##    else:
+##        return ("This is an odd Number")
+##
+##print (isdivisible(98659465943659935654359456423965546954876956754967546095762672760297,7696769726969762946759649237659432567596))
