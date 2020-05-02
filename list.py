@@ -126,3 +126,21 @@
 ##        return ("This is an odd Number")
 ##
 ##print (isdivisible(98659465943659935654359456423965546954876956754967546095762672760297,7696769726969762946759649237659432567596))
+####### BReak Statement #########
+##num = [1,2,3,4,5,6,7]
+##for i in num:
+##    if i ==5:
+##        break
+##    else:
+##        print(i)
+##    
+##count = 0
+##i = 0
+##while i >=0:
+##    if count == 100:
+##        break
+##    else:
+##        print(i, count)
+##    count = count +1
+
+
