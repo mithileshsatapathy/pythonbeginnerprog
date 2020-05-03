@@ -142,5 +142,21 @@
 ##    else:
 ##        print(i, count)
 ##    count = count +1
+### Print Count till 10 using While Loop###
+##def countdown(n):
+##    while n>0:
+##        print (n)
+##        n = n-1
+##    print ("Blastoff")
+##
+##countdown(10)
+### Print list in reverse order using while loop###
+##num = [1,2,3,4,5,6,7,8,9]
+##new_num = []
+##length= len(num)
+##while length >0:
+##    new_num.append(length)
+##    length= length-1
+##print(new_num)
 
 
