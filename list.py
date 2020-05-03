@@ -158,5 +158,48 @@
 ##    new_num.append(length)
 ##    length= length-1
 ##print(new_num)
+##def reverseorder(num):
+##    length = len(num)
+##    while length >=0:
+##        print (length)
+##        length = length-1
+##reverseorder([1,2,3,4,5,6,7,8,9])        
+
+
+##def reverseorder(string):
+##    index = len(string)-1
+##    while len(string)>0:
+##        letter = len(string[index])
+##        print (letter)
+##        index = index-1
+##reverseorder ("Apple")
+
+##prefixes= "JAKLSAQ"
+##suffix="ack"
+##for letter in prefixes:
+##    if letter == "Q":
+##        print (letter + "u" +suffix)
+##    else:
+##        print(letter+suffix)
+##    
+##name = "Mithilesh is learnign python"
+##print(name[:])
+### Find Character in a string###
+
+##index =0
+##def findchar (string,ch):
+##    for letter in string:
+##        if string[index]==ch:
+##            print(letter)
+##            index = index+1
+##findchar("Mithilesh", "i")
+
+
+##def reverseorder(string):
+##    index =len(string)-1
+##    while index>=0:
+##        print (string[index])
+##        index = index-1
+##reverseorder ("Mithilesh")
 
 
