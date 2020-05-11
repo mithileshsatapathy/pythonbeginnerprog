@@ -202,4 +202,16 @@
 ##        index = index-1
 ##reverseorder ("Mithilesh")
 
-
+Kids With the Greatest Number of Candies
+For each kid check if there is a way to distribute extraCandies among the kids such that he or 
+she can have the greatest number of candies among them. Notice that multiple kids can have the greatest number of candies.
+class Solution(object):
+    def kidsWithCandies(self, candies, extraCandies):
+        Max = max(candies)
+        Result = []
+        for each_candies in candies:
+            if each_candies + extraCandies >= Max:
+                Result.append(True)
+            else:
+                Result.append(False)
+        return Result
