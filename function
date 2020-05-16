@@ -1,0 +1,8 @@
+## Create a Function to find the average of 3 Number  given by User
+def average(n1,n2,n3):
+    return (n1+n2+n3)/3.0
+num1 = int(input("Enter your First Number:"))
+num2 = int(input("Enter your Second Number:"))
+num3 = int(input("Enter your Third Number:"))
+Average = average(num1,num2,num3)
+print("Average of Your Numbers are :", Average)
